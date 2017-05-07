@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server.js is the C&C server written in node js, its sends the commands to the users and is the only interface to the users",
+  "main": "Server.js",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "better-pastebin": "^0.2.1",
+    "colors": "^1.1.2",
+    "log-timestamp": "^0.1.2",
+    "ngrok": "^2.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Anon",
+  "license": "ISC",
+  "private": true
+}
